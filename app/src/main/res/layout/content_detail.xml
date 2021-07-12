@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailActivity"
+    android:layout_marginEnd="2dp"
+    android:layout_marginStart="2dp"
+    tools:showIn="@layout/activity_detail"
+    android:background="#D8D8D8">
+
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_width="175dp"
+        android:layout_height="175dp" />
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:background="#848484"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="FALCON"
+        android:layout_marginTop="182dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:background="#848484"
+        android:textAlignment="center"
+        android:id="@+id/type"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="217dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:background="#848484"
+        android:id="@+id/rocket_type"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="252dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView        android:background="#848484"
+        android:id="@+id/rocket_id"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="287dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:background="#848484"
+        android:id="@+id/core_serial"
+        android:textAlignment="center"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="322dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:background="#848484"
+        android:textAlignment="center"
+        android:id="@+id/launch_success"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="357dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#848484"
+        android:textAlignment="center"
+        android:id="@+id/payload_id"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="393dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:background="#848484"
+        android:textAlignment="center"
+        android:id="@+id/manufacturer"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="429dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#848484"
+        android:textAlignment="center"
+        android:id="@+id/nationality"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="465dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#848484"
+        android:textAlignment="center"
+        android:id="@+id/orbit"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="501dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="#848484"
+        android:textAlignment="center"
+        android:id="@+id/reference_system"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="FALCON"
+        android:layout_marginTop="537dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="187dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="189dp"
+        android:src="@drawable/rocket"/>
+
+
+</RelativeLayout>
